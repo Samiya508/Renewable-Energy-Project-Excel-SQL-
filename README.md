@@ -24,6 +24,7 @@ The relational model consists of 7 primary tables designed to map the entire ope
 5. **`grid_failures`**: Systemic grid connection instability logs (`failure_id`, `plant_id`, `failure_date`, `outage_hours`, `financial_loss_usd`).
 6. **`carbon_credits`**: Green initiative incentive tracking (`plant_id`, `credits_generated`, `market_price_usd`).
 7. **`sensor_readings`**: Internet of Things (IoT) mechanical performance telemetry (`plant_id`, `timestamp`, `temperature`, `vibration_level`).
+8. **`weather_data`**: weather data (`country`, `timestamp`, `wind_speed`, `sunlight_hours`,`rainfall_mm`,`temperature`).
 
 ---
 
